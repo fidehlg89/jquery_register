@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Data</title>
+  </head>
+  <style></style>
+  <body>
+    <div id="register-post">
+      <form method="post">
+        <div>
+          <label for="product-name">Product Name</label>
+          <input type="text" id="product-name" name="product-name" />
+        </div>
+        <div>
+          <label for="product-cost">Product Cost</label>
+          <input type="text" id="product-cost" name="product-cost" />
+        </div>
+        <button id="btn-post">Registrar</button>
+      </form>
+    </div>
+    <table id="tableData" border="1">
+      <caption>
+        Products
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Cost</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+    <div id="register-update" hidden>
+      <form>
+        <div>
+          <label for="product-name-upd">Product Name</label>
+          <input type="text" id="product-name-upd" name="product-name-upd" />
+        </div>
+        <div>
+          <label for="product-cost-upd">Product Cost</label>
+          <input type="text" id="product-cost-upd" name="product-cost-upd" />
+        </div>
+        <button id="btn-post">Registrar</button>
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./code.js"></script>
+  </body>
+</html>

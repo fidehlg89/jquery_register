@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Xiaomi Redmi Note 10 Pro",
+      "cost": "USD 346.55"
+    },
+    {
+      "name": "Xiaomi Redmi Note 10 Pro\t",
+      "cost": "USD 350.00",
+      "id": 3
+    }
+  ]
+}
